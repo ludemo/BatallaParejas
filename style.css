@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+body {
+  height: 100vh;
+  width: 100%;
+  background-repeat: inherit;
+  color: #ffffff;
+  font-family: "Jolly Lodger", cursive;
+  background: #E8B481; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #824D6C, #E8B481); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #360C27;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+h4 {
+  color: "Jolly Lodger", cursive;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.temporizador {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+span {
+  font-size: 1.3rem;
+  color: #360C27;
+}
+
+p {
+  display: inline;
+}
+
+.competencia {
+  width: 60%;
+  margin-top: 20px;
+  position: relative;
+  padding: 20px;
+  margin-left: auto;
+  font-size: 1.3rem;
+  margin-right: auto;
+}
+.competencia .indicadores {
+  margin-top: 10px;
+  flex-wrap: wrap;
+  padding-right: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.competencia .indicadores .dificultad, .competencia .indicadores .duracion {
+  display: flex;
+}
+.competencia .indicadores .dificultad img, .competencia .indicadores .duracion img {
+  height: 30px;
+  margin-right: 20px;
+}
+.competencia a {
+  text-decoration: none;
+  color: #ffffff;
+  display: inline;
+  width: 100%;
+  height: 100%;
+}
+.competencia .info {
+  background-color: #360C27;
+  border-radius: 15px;
+  width: 110px;
+  text-align: center;
+  padding: 5px 1px;
+  margin-top: 10px;
+}
+.competencia .info :hover {
+  cursor: pointer;
+}
+
+.separador {
+  height: 5px;
+  background-color: #360C27;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+$primary-font:'Jolly Lodger', cursive;
+$primary-font-color : #360C27;
+$secundary-font-color : #ffffff;
+body{
+    height: 100vh;
+    width: 100%;
+    background-repeat: inherit;
+    color: $secundary-font-color;
+    font-family: $primary-font;
+    background: #E8B481;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #824D6C, #E8B481);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #824D6C, #E8B481); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin:0;
+    background-attachment: fixed;
+}
+
+h1{
+    color:$secundary-font-color;
+    text-align:center;
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+h2{
+    color: $primary-font-color;
+    text-align: center;
+    font-size: 3.5rem;
+}
+h4{
+    color:$primary-font;
+    text-align:center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.temporizador{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+}
+p{
+    font-size: 2rem;
+    color: $secundary-font-color;
+}
+span{
+    font-size: 1.3rem;
+    color:$primary-font-color;
+}
+p{
+    display: inline;
+}
+.competencia{
+    width: 60%;
+    margin-top: 20px;
+    position: relative;
+    padding: 20px;
+    margin-left: auto;      
+    font-size: 1.3rem;
+    margin-right: auto;
+    .indicadores{
+        margin-top: 10px;
+        flex-wrap: wrap;
+        padding-right: 20%;
+        display: flex;
+        justify-content: space-between;
+        .dificultad,.duracion{
+                display: flex;
+                img{
+                    height: 30px;
+                    margin-right: 20px;
+                }
+        }
+
+    }
+    a{
+        text-decoration: none;
+        color: $secundary-font-color;
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
+    .info{
+        background-color: $primary-font-color;
+        border-radius: 15px;
+        width: 110px;
+        text-align: center;
+        padding: 5px 1px;
+        margin-top: 10px;
+        :hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.separador{
+    height: 5px;
+    background-color: $primary-font-color;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
